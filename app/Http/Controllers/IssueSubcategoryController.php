@@ -9,6 +9,7 @@ use App\Http\Requests\UpdateIssueSubcategoryRequest;
 
 class IssueSubcategoryController extends Controller
 {
+
     //insert data to the table
     public function create(IssueSubcategoryRequest $request){
 
